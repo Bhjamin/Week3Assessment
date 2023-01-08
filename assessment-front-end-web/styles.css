@@ -1,0 +1,107 @@
+#firstPage {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+#profHead {
+	background-color: rgb(34, 29, 35);
+	height: 100px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#profPage {
+	background: #ddd;
+	margin: 0 auto;
+	font-family: "Open Sans", sans-serif;
+}
+
+#headerP {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgb(208, 227, 127);
+	margin: 0;
+}
+
+#btnDiv {
+	background-color: rgb(79, 56, 36);
+	height: 590px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.Button {
+	background-color: rgb(87, 136, 108);
+	border: 5px solid rgb(34, 29, 35);
+	border-radius: 10px;
+	height: 75px;
+	width: 175px;
+	margin: 15px;
+	transition: all .2s ease;
+	color: rgb(208, 227, 127);
+}
+
+.Button:hover {
+	background-color: rgb(222, 60, 75);
+}
+
+
+#profDiv {
+	background-color: rgb(79, 56, 36);
+	height: calc(100vh - 100px - 70px);
+	display: flex;
+	flex-direction: column;
+	
+}
+
+h1 { 
+	margin: 0;
+	padding: 100px;
+	font-size: 25px;
+	line-height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(208, 227, 127);
+	text-shadow: 2px 2px 1px rgb(222, 60, 75);
+}
+
